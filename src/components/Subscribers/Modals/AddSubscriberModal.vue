@@ -82,8 +82,8 @@ export default {
       this.currentForm = "";
     },
     submitForm(formData) {
-      console.log("Form Data:", formData);
-      this.$emit("close");
+      // console.log("Form Data:", formData);
+      // this.$emit("close");
     },
   },
   computed: {
